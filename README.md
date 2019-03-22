@@ -8,6 +8,10 @@ This RESTAPI is the API i build and we are using for our learning platform. The 
 
 The API is build to accomendate learning material like videos, courses, users, blogposts and more. With this API it is really easy for you as a provider of courses or videos. Everything is able to work as parent or as a child so ordering and sorting is made really easy
 
+<b>Performance</b>
+
+The API is tested on a 8 Core VPS running 16 GB DDR 4 RAM and 600 GB SSD and Performance wise it uses around 13 MB of RAM per 10 million requests.
+
 <b>Models</b>
 
 The API contains 9 usable models which can be used for displaying and storing Data into the PostgreSQL Database
