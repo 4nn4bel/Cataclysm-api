@@ -65,7 +65,7 @@ Good luck and have fun with this API
 
 Sincerely
 
-Johan
+Johan (Devscorch)
 
 
 
