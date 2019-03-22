@@ -33,6 +33,39 @@ Pivot Model is for creating parent relations between different models
 
 <b>Controller routes</b>
 
-Each 
+The API uses different routers
+
+Users and user related content route: the /cataclysm/users 
+Courses and Course related content Route: /cataclysm/courses
+Course categories related content Route: /cataclysm/categories
+Blog related content Route: cataclysm/blog
+
+These are the main routes used for adding and retrieving information. 
+
+Other routes can be found in the COntroller files
+
+<b>CORS</b>
+
+The API is updated with CORS settings and should not give any problem when using the API on external servers while the used website is running on another server or domain.
+
+<b>Tested with</b>
+
+I tested the API with LEAF templating package and i tested it with Angular 7 as well. Theoretically the API will work with all frontend packages like Angular, VueJS and React. 
+
+I also tested the API with a IOS app and theoretically the API should work just fine using a Android or a Windows app.
+
+<b>Running the API on a Ubuntu Server</b>
+
+Running the API will only work on a Ubuntu server running a Ubuntu based Distro or a MacOS device. It is till now not possible to run Vapor based API's on Windows
+
+For installing and running a Vapor application i want to share this tutorial with you
+https://www.digitalocean.com/community/tutorials/how-to-install-swift-and-vapor-on-ubuntu-16-04
+
+Good luck and have fun with this API
+
+Sincerely
+
+Johan
+
 
 
